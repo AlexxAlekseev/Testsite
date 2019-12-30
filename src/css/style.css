@@ -36,31 +36,33 @@ header {
     padding-left: 0;
     background-color:black;
     position: fixed;
+    text-align: center
 }
 
 .mainbutton {
-    background: transparent;
-    border: 0;
+    background: transparent; /* прозрачность фона кнопки */
+    border: 0; /* убрать рамку кнопки */
     position: relative;
     margin: 30px;
     padding: 10px 25px;
     display: inline-block;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; /*плавное изменение цвета */
     text-align: center;
     font-family: "Montserrat";
     font-size: 150%;
     text-decoration: none;
     color: white;
+    
 }
 
 .navbutton {
-    background: transparent;
-    border: 0;
+    background: transparent; /* прозрачность фона кнопки */
+    border: 0; /* убрать рамку кнопки */
     position: relative;
     margin: 30px;
     padding: 10px 25px;
     display: inline-block;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; /*плавное изменение цвета */
     text-align: center;
     font-family: "Montserrat";
     font-size: 100%;
